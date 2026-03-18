@@ -24,28 +24,6 @@ Abre en tu navegador: `http://localhost:8000/docs`
 
 ---
 
-## 📡 Cómo usar la API (para el compañero de frontend)
-
-### Endpoint principal
-
-| Campo | Valor |
-|---|---|
-| **Método** | `POST` |
-| **URL** | `http://localhost:8000/generate-doc` |
-| **Body** | JSON |
-| **Respuesta** | Archivo `.docx` descargable |
-
-### Body (JSON)
-```json
-{
-  "titulo": "Mi Documento",
-  "contenido": "Este es el contenido.\nEste es otro párrafo."
-}
-```
-
-> 💡 Usa `\n` para separar párrafos dentro del contenido.
-
----
 
 ## 💻 Ejemplo en JavaScript (fetch)
 
